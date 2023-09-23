@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Merienda';
+	src: url('../public/fonts/merienda-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Merienda';
+	src: url('../public/fonts/merienda-regular.ttf') format('truetype');
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Merienda', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #000;
+}

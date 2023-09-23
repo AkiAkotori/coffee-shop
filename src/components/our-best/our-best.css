@@ -1,0 +1,39 @@
+.our-best {
+	background-image: url('../../../public/images/our-best-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.our-best__container {
+	margin: 0 auto;
+	padding: 80px 0 110px;
+	max-width: 800px;
+	text-align: right;
+}
+.our-best__title {
+	margin: 0;
+	text-align: center;
+}
+.our-best__list {
+	margin: 0;
+	margin-top: 40px;
+	display: flex;
+}
+.our-best__item {
+	padding: 22px 24px;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, .65);
+	width: 268px;
+}
+.our-best__item:not(:last-child) {
+	margin-right: 70px;
+}
+.our-best__descr {
+	margin: 0;
+	margin-top: 14px;
+	font-size: 12px;
+}
+.our-best__price {
+	display: inline-block;
+	margin: 0;
+	margin-top: 10px;
+}
